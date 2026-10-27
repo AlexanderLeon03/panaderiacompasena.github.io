@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" type="text/css" href="css/css_login.css">
+ 
+	<title>registro</title>
+</head>
+<body>
+
+    <img src="assets/Logo5.png" alt="Logo" class="logo">
+
+    <!-- ========== LOGIN ========== -->
+    <div class="login">
+
+        <h1>Registro</h1>
+<form action="login.html">
+	<label>Seleccione su Tipo de Documento:</label>
+    <br><br>
+     <!-- ========== DESPLEGABLE T_DOC ========== -->
+	<select name="ti_doc">
+        <option value="cc">Cédula de Ciudadanía</option>
+        <option value="ce">Cédula de Extranjería</option>
+        <option value="pasaporte">Pasaporte</option>
+    </select>
+	<br><br>
+     <!-- ========== CAMPOS ========== -->
+
+	<label>ingrese su ID:</label>
+	<br><br>
+    <input type="number" name="id_usu" required>
+    <br><br>
+
+    <label>Ingrese su nombre:</label>
+    <br><br>
+
+    <input type="text" name="nombre" required>
+    <br><br>
+
+    <label>ingrese su numero de telefono:</label>
+    <br><br>
+
+    <input type="number" name="nu_tel" required>
+    <br><br>
+
+    <label>ingrese su correo electronico:</label>
+	<br><br>
+
+    <input type="correo" name="email" required>
+    <br><br>
+
+    <label>Ingrese su contraseña:</label>
+    <br><br>
+
+    <input type="password" name="pass" required>
+    <br><br>
+   
+
+     <!-- ========== SUMBMITS ========== -->
+
+
+    <a href="login.html"><button type="submit">Ingresar</button></a>
+
+    </div>
+
+
+</form>
+</body>
+</html>

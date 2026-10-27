@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" type="text/css" href="css/css_login.css">
+ 
+	<title>login</title>
+</head>
+<body>
+
+    <img src="assets/Logo3.png" alt="Logo" class="logo">
+
+    <!-- ========== LOGIN ========== -->
+    <div class="login">
+
+        <h1>Login</h1>
+<form action="botones.html">
+	<label>Seleccione su Tipo de Documento:</label>
+    <br><br>
+     <!-- ========== DESPLEGABLE T_DOC ========== -->
+	<select name="ti_doc">
+        <option value="cc">Cédula de Ciudadanía</option>
+        <option value="ce">Cédula de Extranjería</option>
+        <option value="pasaporte">Pasaporte</option>
+    </select>
+	<br><br>
+     <!-- ========== CAMPOS ========== -->
+
+	<label>ingrese su ID:</label>
+	<br><br>
+    <input type="number" name="id_usu" required>
+    <br><br>
+
+    <label>Ingrese su Password:</label>
+    <br><br>
+
+    <input type="password" name="pass_usu" required>
+    <br><br>
+   
+
+     <!-- ========== SUMBMITS ========== -->
+
+    <a href="recupe_con.html">Olvide mi contraseña</a>
+     <br><br>
+
+    <input type="submit" value="Ingresar">
+
+    </div>
+
+
+</form>
+</body>
+</html>

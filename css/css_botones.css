@@ -1,0 +1,13 @@
+body {
+    background-color: #fff3e0;
+    text-align: center;
+}
+
+button {
+    font-size: 1.3rem;          /* letra más grande */
+    padding: 15px 35px;         /* alto y ancho interno del botón */
+    background-color: #8b4513;  /* café, igual que el resto de la página */
+    color: white;
+    border: none;
+    
+}
